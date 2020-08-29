@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sem6_eee"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="380sp"
+            android:layout_height="100sp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            app:cardCornerRadius="30sp"
+            app:cardElevation="3sp"
+            android:layout_marginTop="70sp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#ee4035"
+                app:cardCornerRadius="30sp"
+                app:cardElevation="0sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:onClick="ps2"
+                    android:text="Power System-II"
+                    android:textColor="#fff"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="380sp"
+            android:layout_height="100sp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            app:cardCornerRadius="30sp"
+            app:cardElevation="3sp"
+            android:layout_marginTop="70sp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#f37736 "
+                app:cardCornerRadius="30sp"
+                app:cardElevation="0sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Power System-II Lab"
+                    android:onClick="ps2l"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:textColor="#fff"
+                    />
+            </com.google.android.material.card.MaterialCardView>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="380sp"
+            android:layout_height="100sp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            app:cardCornerRadius="30sp"
+            app:cardElevation="3sp"
+            android:layout_marginTop="70sp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#fdf498"
+                app:cardCornerRadius="30sp"
+                app:cardElevation="0sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Technical Elective-II"
+                    android:onClick="te2"
+                    android:textColor="#fff"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="380sp"
+            android:layout_height="100sp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            app:cardCornerRadius="30sp"
+            app:cardElevation="3sp"
+            android:layout_marginTop="70sp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#7bc043"
+                app:cardCornerRadius="30sp"
+                app:cardElevation="0sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+
+                    android:onClick="pe"
+                    android:text="Power Electronics"
+                    android:textColor="#fff"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="380sp"
+            android:layout_height="100sp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            app:cardCornerRadius="30sp"
+            app:cardElevation="3sp"
+            android:layout_marginTop="70sp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#0392cf"
+                app:cardCornerRadius="30sp"
+                app:cardElevation="0sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Power Electronics Lab"
+                    android:onClick="pel"
+
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:textColor="#fff"
+                    />
+
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="380sp"
+            android:layout_height="100sp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            app:cardCornerRadius="30sp"
+            app:cardElevation="3sp"
+            android:layout_marginTop="70sp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#ff6f69 "
+                app:cardCornerRadius="30sp"
+                app:cardElevation="0sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Electrical Machine -III "
+                    android:onClick="em3"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:textColor="#fff"
+                    />
+
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="380sp"
+            android:layout_height="100sp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            app:cardCornerRadius="30sp"
+            app:cardElevation="3sp"
+            android:layout_marginTop="70sp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#88d8b0 "
+                app:cardCornerRadius="30sp"
+                app:cardElevation="0sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Electrical Machine -III Lab"
+                    android:onClick="em3l"
+                    android:textColor="#fff"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="380sp"
+            android:layout_height="100sp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            app:cardCornerRadius="30sp"
+            app:cardElevation="3sp"
+            android:layout_marginTop="70sp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#88d8b0 "
+                app:cardCornerRadius="30sp"
+                app:cardElevation="0sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Multi-Disciplinary Design Project"
+                    android:onClick="mddp"
+                    android:textColor="#fff"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </com.google.android.material.card.MaterialCardView><com.google.android.material.card.MaterialCardView
+        android:layout_width="380sp"
+        android:layout_height="100sp"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center"
+        app:cardCornerRadius="30sp"
+        app:cardElevation="3sp"
+        android:layout_marginTop="70sp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="#88d8b0 "
+            app:cardCornerRadius="30sp"
+            app:cardElevation="0sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Open Elective -VI"
+                android:onClick="oe4"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+    android:layout_width="380sp"
+    android:layout_height="100sp"
+    android:background="@android:color/transparent"
+    android:layout_gravity="center"
+    app:cardCornerRadius="30sp"
+    app:cardElevation="3sp"
+    android:layout_marginTop="70sp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="#88d8b0 "
+        app:cardCornerRadius="30sp"
+        app:cardElevation="0sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="CDC-6/CCC-4"
+            android:onClick="cdc"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+</com.google.android.material.card.MaterialCardView>
+
+
+
+</LinearLayout>
+</ScrollView>

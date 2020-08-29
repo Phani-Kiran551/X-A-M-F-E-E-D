@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sem8_cse"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="380sp"
+            android:layout_height="100sp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            app:cardCornerRadius="30sp"
+            app:cardElevation="3sp"
+            android:layout_marginTop="70sp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#ee4035"
+                app:cardCornerRadius="30sp"
+                app:cardElevation="0sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CS Stream Elective – 4"
+                    android:onClick="cs"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:textColor="#fff"
+                    />
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="380sp"
+            android:layout_height="100sp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            app:cardCornerRadius="30sp"
+            app:cardElevation="3sp"
+            android:layout_marginTop="70sp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="#f37736 "
+                app:cardCornerRadius="30sp"
+                app:cardElevation="0sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Open Elective 5 3 3-0-0
+CSE 461 Capstone Project – Phase II"
+                    android:onClick="oe"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:textColor="#fff"
+                    />
+            </com.google.android.material.card.MaterialCardView>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
